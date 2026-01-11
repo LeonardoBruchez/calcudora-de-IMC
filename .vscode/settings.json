@@ -3,5 +3,6 @@
     "formated",
     "heightvalue",
     "weightvalue"
-  ]
+  ],
+  "liveServer.settings.port": 5501
 }

@@ -20,8 +20,10 @@ weight.addEventListener('blur',function(){
   }else{
     console.log("Peso digitado:",this.value)
   }
-  return weight
+  return weight.value
+  console.log(`peso é ${weight.value}`)
 })
+
 
 // Formata a altura dentro do input
 height.addEventListener("input",function(){
@@ -65,6 +67,6 @@ height.addEventListener('blur',function(){
 
 submit.addEventListener("click",function (){
   event.preventDefault()
-  heightvalue = height.value
-  res.innerHTML = `SEU PESO É ${weight}`
+  res.innerHTML = `SEU PESO É ${weight.value}`
+  res.innerHTML = `Sua altura é ${height.value}`
 })
